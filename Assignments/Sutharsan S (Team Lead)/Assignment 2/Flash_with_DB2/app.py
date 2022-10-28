@@ -48,7 +48,4 @@ def Dashboard():
     return render_template('Home.html',user = Const)
  
 if __name__=='__main__':
-    # print(conn = Connect.Connection())
-    # print(Connect.Create(email,name,phone,password,conn))
-    # print(Connect.Signin(conn,"rk9166771@gmail.com","123456789"))
     app.run(debug = True)
